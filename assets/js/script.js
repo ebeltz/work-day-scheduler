@@ -39,18 +39,18 @@ $(document).ready(function() {
     }
 
     // Pulls items from local storage if user has saved anything
-    $("#hour8am .description").val(localStorage.getItem("hour8am"));
-    $("#hour9am .description").val(localStorage.getItem("hour9am"));
-    $("#hour10am .description").val(localStorage.getItem("hour10am"));
-    $("#hour11am .description").val(localStorage.getItem("hour11am"));
-    $("#hour12pm .description").val(localStorage.getItem("hour12pm"));
-    $("#hour1pm .description").val(localStorage.getItem("hour1pm"));
-    $("#hour2pm .description").val(localStorage.getItem("hour2pm"));
-    $("#hour3pm .description").val(localStorage.getItem("hour3pm"));
-    $("#hour4pm .description").val(localStorage.getItem("hour4pm"));
-    $("#hour5pm .description").val(localStorage.getItem("hour5pm"));
-    $("#hour6pm .description").val(localStorage.getItem("hour6pm"));
-    $("#hour7pm .description").val(localStorage.getItem("hour7pm"));
+    $("#hour8 .description").val(localStorage.getItem("hour8"));
+    $("#hour9 .description").val(localStorage.getItem("hour9"));
+    $("#hour10 .description").val(localStorage.getItem("hour10"));
+    $("#hour11 .description").val(localStorage.getItem("hour11"));
+    $("#hour12 .description").val(localStorage.getItem("hour12"));
+    $("#hour13 .description").val(localStorage.getItem("hour13"));
+    $("#hour14 .description").val(localStorage.getItem("hour14"));
+    $("#hour15 .description").val(localStorage.getItem("hour15"));
+    $("#hour16 .description").val(localStorage.getItem("hour16"));
+    $("#hour17 .description").val(localStorage.getItem("hour17"));
+    $("#hour18 .description").val(localStorage.getItem("hour18"));
+    $("#hour19 .description").val(localStorage.getItem("hour19"));
 
     timeKeeper();
 })
